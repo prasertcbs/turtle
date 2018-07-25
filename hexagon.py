@@ -22,4 +22,8 @@ def polygon(side):
         forward(100)
         left(360 / side)
 
-polygon(10)
+def polygon2(side, pen_size=2):
+    pensize(pen_size)
+    polygon(side)
+
+polygon2(10, 20)
